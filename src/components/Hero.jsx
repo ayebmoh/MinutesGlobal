@@ -36,7 +36,7 @@ const Hero = ({}) => {
               <ButtonPrimary>Get Started</ButtonPrimary>{" "}
               <a
                 href="/services"
-                class="inline-flex z-50 justify-center underline items-center py-3 px-5 text-base font-semibold text-center text-gray-900 rounded-lg border border-gray-300 bg-sky-200 bg-opacity-30 hover:bg-sky-200 hover:bg-opacity-50   focus:ring-4 focus:ring-gray-100 "
+                className="inline-flex z-50 justify-center underline items-center py-3 px-5 text-base font-semibold text-center text-gray-900 rounded-lg border border-gray-300 bg-sky-200 bg-opacity-30 hover:bg-sky-200 hover:bg-opacity-50   focus:ring-4 focus:ring-gray-100 "
               >
                 Explore more{" "}
                 <ArrowRightIcon className="h-4 w-4 font-semibold text-gray-900 ml-1" />

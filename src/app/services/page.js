@@ -106,13 +106,13 @@ export default function Service() {
                 whileInView="onscreen"
                 transition={smoothTransition}
                 viewport={{ once: true, amount: 0.7 }}
-                className="flex flex-col md:flex-row items-center md:items-start md:justify-between"
+                className="flex flex-col md:flex-row gap-6 items-center md:items-start md:justify-between"
               >
-                <div className="md:w-5/12">
+                <div className="md:w-5/12  p-6 rounded-lg backdrop-blur-sm bg-gradient-to-br from-sky-400 via-emerald-200 to-sky-200 bg-opacity-40">
                   <h2 className="text-2xl font-bold mb-4">
                     Information Technology Consultants
                   </h2>
-                  <p className="text-gray-600 mb-6 text-center md:text-left">
+                  <p className="text-gray-600 font-medium mb-6  text-center md:text-left">
                     Our expert IT consultants provide strategic technology
                     guidance tailored to your business needs. We offer
                     comprehensive assessments, digital transformation
@@ -140,9 +140,9 @@ export default function Service() {
                 initial="offscreen"
                 whileInView="onscreen"
                 viewport={{ once: true, amount: 0.5 }}
-                className="flex flex-col md:flex-row-reverse items-center md:items-start md:justify-between"
+                className="flex flex-col md:flex-row-reverse gap-6 items-center md:items-start md:justify-between"
               >
-                <div className="md:w-5/12">
+                <div className="md:w-5/12 p-6 rounded-lg backdrop-blur-sm bg-gradient-to-bl from-sky-400 via-emerald-200 to-sky-200 bg-opacity-40">
                   <h2 className="text-2xl font-bold mb-4">
                     Computer Systems and Software Designing
                   </h2>
@@ -175,9 +175,9 @@ export default function Service() {
                 initial="offscreen"
                 whileInView="onscreen"
                 viewport={{ once: true, amount: 0.5 }}
-                className="flex flex-col md:flex-row items-center md:items-start md:justify-between"
+                className="flex flex-col md:flex-row  gap-6  items-center md:items-start md:justify-between"
               >
-                <div className="md:w-5/12">
+                <div className="md:w-5/12 p-6 rounded-lg backdrop-blur-sm bg-gradient-to-tr from-sky-400 via-emerald-200 to-sky-200 bg-opacity-40">
                   <h2 className="text-2xl font-bold mb-4">
                     Project Management Consulting
                   </h2>
@@ -243,7 +243,7 @@ export default function Service() {
           <div className="flex flex-col md:flex md:flex-row justify-between">
             <div className="2xl:container w-full md:py-6 py-9">
               <div className="flex flex-col lg:flex-row w-full px-4 gap-8">
-                <div className="w-full flex flex-col justify-center animate-fade-up">
+                <div className="w-full flex flex-col justify-center animate-fade-up bg-sky-200 p-6 rounded-lg">
                   <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-black pb-4 animate-slide-in-left">
                     Project Management Consulting
                   </h1>
@@ -279,7 +279,7 @@ export default function Service() {
           <div className="flex flex-col md:flex md:flex-row justify-between">
             <div className="2xl:container w-full md:py-6 py-9">
               <div className="flex flex-col lg:flex-row w-full px-4 gap-8">
-                <div className="w-full flex flex-col justify-center animate-fade-up">
+                <div className="w-full flex flex-col justify-center animate-fade-up bg-sky-200 p-6 rounded-lg">
                   <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-black pb-4 animate-slide-in-left">
                     Computer Systems & Software Design
                   </h1>
@@ -315,7 +315,7 @@ export default function Service() {
           <div className="flex flex-col md:flex md:flex-row justify-between">
             <div className="2xl:container w-full md:py-6 py-9">
               <div className="flex flex-col lg:flex-row w-full px-4 gap-8">
-                <div className="w-full flex flex-col justify-center animate-fade-up">
+                <div className="w-full flex flex-col justify-center animate-fade-up bg-sky-200 p-6 rounded-lg">
                   <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-black pb-4 animate-slide-in-left">
                     Information Technology Consulting
                   </h1>
