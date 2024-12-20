@@ -21,7 +21,7 @@ const Hero = ({}) => {
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
               Anything becomes easy with <strong>Minutes Global FZ-LLC</strong>.
             </h1>
-            <p className="text-black-500 z-50 mt-4 mb-6">
+            <p className="text-gray-800 z-50 font-semibold mt-4 mb-6">
               Empowering businesses with cutting-edge IT solutions, we provide a
               comprehensive range of services to address all your technology
               needs. From tailored consulting and strategic advice to seamless

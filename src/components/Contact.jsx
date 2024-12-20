@@ -44,7 +44,7 @@ const Contact = () => {
       className=" pb-10 relative block bg-gradient-to-b from-emerald-200 via-sky-400 to-sky-300"
     >
       {/* content */}
-      <div className="container px-6 pb-10 mx-auto">
+      <div className="container  px-6 pb-10 mx-auto">
         <div className="lg:flex lg:items-center lg:-mx-10">
           <div className="lg:w-1/2 lg:mx-10">
             <h1 className="text-2xl font-semibold capitalize text-white lg:text-3xl">
@@ -52,7 +52,7 @@ const Contact = () => {
               <span className="font-bold text-sky-500">level!</span>
             </h1>
 
-            <p className="mt-4 text-gray-700">
+            <p className="mt-4 font-semibold text-gray-700">
               Ask us everything and we would love to hear from you
             </p>
 
@@ -60,11 +60,11 @@ const Contact = () => {
               id="contactform"
               ref={form}
               onSubmit={sendEmail}
-              className="mt-12"
+              className="mt-8"
             >
               <div className="-mx-2 md:items-center md:flex">
                 <div className="flex-1 px-2">
-                  <label className="block mb-2 text-sm text-gray-700">
+                  <label className="block font-bold mb-2  text-gray-700">
                     Full Name
                   </label>
                   <input
@@ -78,7 +78,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex-1 px-2 mt-4 md:mt-0">
-                  <label className="block mb-2 text-sm text-gray-700">
+                  <label className="block font-bold mb-2  text-gray-700">
                     Email address
                   </label>
                   <input
@@ -92,7 +92,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="flex-1  pt-4 md:mt-0">
-                <label className="block mb-2 text-sm text-gray-700">
+                <label className="block font-bold mb-2  text-gray-700">
                   Service
                 </label>
                 <select
@@ -115,7 +115,7 @@ const Contact = () => {
                 </select>
               </div>
               <div className="w-full mt-4">
-                <label className="block mb-2 text-sm  text-gray-700">
+                <label className="block font-bold mb-2   text-gray-700">
                   Message
                 </label>
                 <textarea
@@ -129,7 +129,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
+                className="w-full font-bold px-6 py-3 mt-4 text-sm  tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
               >
                 get in touch
               </button>

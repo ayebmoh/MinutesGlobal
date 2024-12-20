@@ -52,17 +52,21 @@ export default function Home() {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={smoothTransition}
-              className="text-4xl font-bold text-center mb-16 text-blue-400"
+              className="text-4xl font-bold text-center mb-4 text-white"
             >
               Our Services
             </motion.h2>
-            <div className="grid md:grid-cols-3  xl:grid-cols-3 gap-8 ">
+            <p className="max-w-2xl mx-auto text-base mb-14 text-center  leading-relaxed md:text-2xl">
+              Transforming ideas into innovative solutions through expert
+              guidance and implementation.
+            </p>
+            <div className="grid md:grid-cols-3 text-center  xl:grid-cols-3 gap-8 ">
               <motion.div
                 variants={scrollAnimation}
-                className="group relative cursor-pointer mx-4 overflow-hidden bg-white px-6 pt-10 pb-6 shadow-xl ring-1 ring-gray-900/5 transition-all  hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm rounded-lg sm:px-10"
+                className="group relative cursor-pointer overflow-hidden bg-white px-6 mx-4 pt-10 pb-6 shadow-xl ring-1 ring-gray-900/5 transition-all hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm rounded-lg sm:px-10 flex flex-col items-center text-center"
               >
                 <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-sky-400 transition-all duration-300 group-hover:scale-[10]"></span>
-                <div className="relative z-10 mx-auto max-w-md">
+                <div className="relative z-10 flex flex-col items-center">
                   <span className="grid h-20 w-20 place-items-center rounded-full bg-sky-400 transition-all duration-300 group-hover:bg-sky-400">
                     <Image
                       className="p-1"
@@ -88,10 +92,10 @@ export default function Home() {
 
               <motion.div
                 variants={scrollAnimation}
-                className="group relative cursor-pointer mx-4 overflow-hidden bg-white px-6 pt-10 pb-6 shadow-xl ring-1 ring-gray-900/5 transition-all  hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm rounded-lg sm:px-10"
+                className="group relative cursor-pointer overflow-hidden bg-white px-6 mx-4 pt-10 pb-6 shadow-xl ring-1 ring-gray-900/5 transition-all hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm rounded-lg sm:px-10 flex flex-col items-center text-center"
               >
-                <span className="absolute top-10 z-0 h-20 w-20 rounded-full  bg-sky-400 transition-all duration-300 group-hover:scale-[10]"></span>
-                <div className="relative z-10 mx-auto max-w-md">
+                <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-sky-400 transition-all duration-300 group-hover:scale-[10]"></span>
+                <div className="relative z-10 flex flex-col items-center">
                   <span className="grid h-20 w-20 place-items-center rounded-full bg-sky-400 transition-all duration-300 group-hover:bg-sky-400">
                     <Image
                       className="p-1"
@@ -114,22 +118,22 @@ export default function Home() {
               </motion.div>
               <motion.div
                 variants={scrollAnimation}
-                className="group relative cursor-pointer overflow-hidden bg-white px-6 mx-4 pt-10 pb-6 shadow-xl ring-1 ring-gray-900/5 transition-all  hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm rounded-lg sm:px-10"
+                className="group relative cursor-pointer overflow-hidden bg-white px-6 mx-4 pt-10 pb-6 shadow-xl ring-1 ring-gray-900/5 transition-all hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm rounded-lg sm:px-10 flex flex-col items-center text-center"
               >
                 <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-sky-400 transition-all duration-300 group-hover:scale-[10]"></span>
-                <div className="relative z-10 mx-auto max-w-md">
+                <div className="relative z-10 flex flex-col items-center">
                   <span className="grid h-20 w-20 place-items-center rounded-full bg-sky-400 transition-all duration-300 group-hover:bg-sky-400">
                     <Image
-                      className="p-1 "
+                      className="p-1"
                       src={Stats}
                       alt="Service3"
                       quality={100}
                       width={200}
                       height={300}
                       layout="responsive"
-                    />{" "}
+                    />
                   </span>
-                  <div className="space-y-6 pt-5 text-base  text-gray-600 transition-all duration-300 group-hover:text-white/90">
+                  <div className="space-y-6 pt-5 text-base text-gray-600 transition-all duration-300 group-hover:text-white/90">
                     <p className="font-bold">Project Management Consultancy</p>
                     <p>
                       End-to-end project management services ensuring efficient

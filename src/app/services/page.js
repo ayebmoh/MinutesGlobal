@@ -106,13 +106,13 @@ export default function Service() {
                 whileInView="onscreen"
                 transition={smoothTransition}
                 viewport={{ once: true, amount: 0.7 }}
-                className="flex flex-col md:flex-row gap-6 items-center md:items-start md:justify-between"
+                className="flex flex-col md:flex-row  items-center md:items-start md:justify-between"
               >
-                <div className="md:w-5/12  p-6 rounded-lg backdrop-blur-sm bg-gradient-to-br from-sky-400 via-emerald-200 to-sky-200 bg-opacity-40">
-                  <h2 className="text-2xl font-bold mb-4">
+                <div className="md:w-6/12 border rounded-lg  p-6 ">
+                  <h2 className="text-2xl font-bold border-slate-400 mb-4 border-b p-2">
                     Information Technology Consultants
                   </h2>
-                  <p className="text-gray-600 font-medium mb-6  text-center md:text-left">
+                  <p className="text-gray-600 font-semibold text-justify leading-relaxed mb-6  ">
                     Our expert IT consultants provide strategic technology
                     guidance tailored to your business needs. We offer
                     comprehensive assessments, digital transformation
@@ -142,11 +142,11 @@ export default function Service() {
                 viewport={{ once: true, amount: 0.5 }}
                 className="flex flex-col md:flex-row-reverse gap-6 items-center md:items-start md:justify-between"
               >
-                <div className="md:w-5/12 p-6 rounded-lg backdrop-blur-sm bg-gradient-to-bl from-sky-400 via-emerald-200 to-sky-200 bg-opacity-40">
-                  <h2 className="text-2xl font-bold mb-4">
+                <div className="md:w-6/12 border p-6 rounded-lg  ">
+                  <h2 className="text-2xl font-bold border-slate-400 mb-4 border-b p-2">
                     Computer Systems and Software Designing
                   </h2>
-                  <p className="text-gray-600 mb-6 text-center md:text-left">
+                  <p className="text-gray-600 mb-6 font-semibold text-justify leading-relaxed">
                     We specialize in creating custom software solutions and
                     designing robust computer systems tailored to your unique
                     business requirements. Our skilled developers and system
@@ -177,11 +177,11 @@ export default function Service() {
                 viewport={{ once: true, amount: 0.5 }}
                 className="flex flex-col md:flex-row  gap-6  items-center md:items-start md:justify-between"
               >
-                <div className="md:w-5/12 p-6 rounded-lg backdrop-blur-sm bg-gradient-to-tr from-sky-400 via-emerald-200 to-sky-200 bg-opacity-40">
-                  <h2 className="text-2xl font-bold mb-4">
+                <div className="md:w-6/12  p-6 rounded-lg border">
+                  <h2 className="text-2xl border-b border-slate-400 p-2 font-bold mb-4">
                     Project Management Consulting
                   </h2>
-                  <p className="text-gray-600 mb-6 text-center md:text-left">
+                  <p className="text-gray-600 font-semibold text-justify leading-relaxed mb-6  ">
                     Our project management consulting services provide
                     comprehensive support to ensure successful technology and
                     business initiatives. We offer expert guidance in project
@@ -240,14 +240,14 @@ export default function Service() {
 
         {/* Tab Content */}
         {activeTab === "projectManagement" && (
-          <div className="flex flex-col md:flex md:flex-row justify-between">
-            <div className="2xl:container w-full md:py-6 py-9">
-              <div className="flex flex-col lg:flex-row w-full px-4 gap-8">
-                <div className="w-full flex flex-col justify-center animate-fade-up bg-sky-200 p-6 rounded-lg">
+          <div className="flex flex-col border border-gray-500 rounded-lg sm:m-0  m-3 mb-12 bg-gradient-to-b from-transparent to-sky-400 md:flex md:flex-row justify-between">
+            <div className="2xl:container  w-full md:py-6 py-9">
+              <div className="flex flex-col  lg:flex-row w-full px-4 gap-8">
+                <div className="w-full  flex flex-col justify-center animate-fade-up p-6 rounded-lg">
                   <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-black pb-4 animate-slide-in-left">
                     Project Management Consulting
                   </h1>
-                  <p className="font-normal text-xl  leading-6 text-gray-500 animate-fade-up">
+                  <p className="font-normal leading-relaxed text-xl text-justify  text-gray-500 animate-fade-up">
                     Optimize your project lifecycle with expert guidance in
                     planning, execution, and monitoring. We ensure successful
                     outcomes with streamlined processes tailored to your goals.
@@ -276,14 +276,14 @@ export default function Service() {
         )}
 
         {activeTab === "systemsDesign" && (
-          <div className="flex flex-col md:flex md:flex-row justify-between">
+          <div className="flex flex-col border border-gray-500 rounded-lg sm:m-0  m-3 mb-12 bg-gradient-to-b from-transparent to-sky-400 md:flex md:flex-row justify-between">
             <div className="2xl:container w-full md:py-6 py-9">
               <div className="flex flex-col lg:flex-row w-full px-4 gap-8">
-                <div className="w-full flex flex-col justify-center animate-fade-up bg-sky-200 p-6 rounded-lg">
+                <div className="w-full flex flex-col justify-center animate-fade-up  p-6 rounded-lg">
                   <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-black pb-4 animate-slide-in-left">
                     Computer Systems & Software Design
                   </h1>
-                  <p className="font-normal text-xl leading-6 text-gray-500 animate-fade-up">
+                  <p className="font-normal text-justify text-xl leading-relaxed text-gray-500 animate-fade-up">
                     From system architecture to software development, we craft
                     scalable, efficient, and secure solutions that power your
                     business operations.
@@ -312,19 +312,19 @@ export default function Service() {
         )}
 
         {activeTab === "itConsulting" && (
-          <div className="flex flex-col md:flex md:flex-row justify-between">
+          <div className="flex flex-col border border-gray-500 rounded-lg sm:m-0  m-3 mb-12 bg-gradient-to-b from-transparent to-sky-400 md:flex md:flex-row justify-between">
             <div className="2xl:container w-full md:py-6 py-9">
               <div className="flex flex-col lg:flex-row w-full px-4 gap-8">
-                <div className="w-full flex flex-col justify-center animate-fade-up bg-sky-200 p-6 rounded-lg">
+                <div className="w-full  flex flex-col justify-center animate-fade-up  p-6 rounded-lg">
                   <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-black pb-4 animate-slide-in-left">
                     Information Technology Consulting
                   </h1>
-                  <p className="font-normal text-xl leading-6 text-gray-500 animate-fade-up">
+                  <p className="font-normal text-justify text-xl leading-relaxed text-gray-500 animate-fade-up">
                     Maximize your IT investments with strategic consulting
                     services. We help you align technology with business
                     objectives and drive efficiency.
                   </p>
-                  <ul className="mt-5 text-lg flex flex-col gap-4 text-gray-400  animate-fade-up">
+                  <ul className="mt-5  text-lg flex flex-col gap-4 text-gray-400  animate-fade-up">
                     <ListItem Title="IT strategy development for business growth." />
                     <ListItem Title="Implementation of secure and scalable IT solutions." />
                     <ListItem Title="Comprehensive audits to improve infrastructure performance." />
@@ -338,7 +338,7 @@ export default function Service() {
             <div className="w-full">
               <Image
                 className="lg:h-5/6"
-                height={500}
+                height={200}
                 width={900}
                 alt="service"
                 src={ItConsulting.src}
