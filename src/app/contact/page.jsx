@@ -4,6 +4,7 @@ import { useMemo, useRef, useState } from "react";
 import contact from "@/assets/contact2.svg";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
+import { MapPinIcon } from "@heroicons/react/24/solid";
 
 const page = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -144,12 +145,11 @@ const page = () => {
               height={250}
               alt=""
             />
-
             <div className="mt-6 space-y-8 md:mt-8">
               <p className="flex items-start -mx-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-6 h-6 mx-2 text-blue-400"
+                  className="w-6 h-6 mx-2 text-blue-500"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -163,7 +163,18 @@ const page = () => {
                 </svg>
 
                 <span className="mx-2  truncate w-72 text-gray-700">
-                  MinutesGlobal@admin.com
+                  admin@minutesglobal.io{" "}
+                </span>
+              </p>
+            </div>
+
+            <div className="mt-6 flex flex-row space-y-8 ">
+              <p className="flex -mx-2">
+                <MapPinIcon className="h-6 w-6 text-blue-500" />
+
+                <span className="mx-2   w-72 text-gray-700">
+                  VUPRO250 compass building - Al Hulaila, Al Hulaila Industrial
+                  Zone-FZ Ras Al Khaimah,United Arab Emirates{" "}
                 </span>
               </p>
             </div>

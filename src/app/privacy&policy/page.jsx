@@ -221,13 +221,15 @@ const PrivacyPolicy = () => {
               <p>If you have any questions or concerns, please contact us:</p>
               <ul className="list-none">
                 <li>
-                  <strong>Email</strong>: MinutesGlobal@admin.com
+                  <strong>Email</strong>: admin@minutesglobal.io
                 </li>
                 <li>
-                  <strong>Address</strong>: Hong Kong
+                  <strong>Address</strong>: VUPRO250 compass building - Al
+                  Hulaila, Al Hulaila Industrial Zone-FZ Ras Al Khaimah,United
+                  Arab Emirates
                 </li>
               </ul>
-              <p className="mt-4">Effective Date: 10/23/2024</p>
+              <p className="mt-4">Effective Date: 12/23/2024</p>
             </div>
           </div>
         </div>

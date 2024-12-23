@@ -1,4 +1,5 @@
 import Logo from "@/assets/logo.svg";
+import { MapPinIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 export const Footer = () => {
   return (
@@ -34,6 +35,41 @@ export const Footer = () => {
                 Minutes Global FZ-LLC
               </span>
             </a>
+          </div>
+          <div className="flex lg:flex-row  flex-col ">
+            {" "}
+            <div className="mt-6 space-y-8 md:mt-8">
+              <p className="flex items-start -mx-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-6 h-6 mx-2 text-blue-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  />
+                </svg>
+
+                <span className="mx-2  truncate w-72 text-gray-700">
+                  admin@minutesglobal.io{" "}
+                </span>
+              </p>
+            </div>
+            <div className="mt-6 flex flex-row space-y-8 ">
+              <p className="flex -mx-2">
+                <MapPinIcon className="h-6 w-6 text-blue-500" />
+
+                <span className="mx-2   w-72 text-gray-700">
+                  VUPRO250 compass building - Al Hulaila, Al Hulaila Industrial
+                  Zone-FZ Ras Al Khaimah,United Arab Emirates{" "}
+                </span>
+              </p>
+            </div>
           </div>
         </div>
         <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500  mb-10 ">
